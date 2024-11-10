@@ -520,6 +520,8 @@ address {
   height: 40px;
   width: 264px;
   margin-left: auto;
+  width: 264px;
+  height: 40px;
 }
 
 .footer-input::placeholder {
@@ -708,4 +710,9 @@ address {
   height: 40px;
   align-items: center;
   justify-content: center;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
