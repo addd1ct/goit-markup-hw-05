@@ -696,6 +696,7 @@ address {
 }
 
 .footer-send-btn {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -706,10 +707,15 @@ address {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.send-icon {
+  margin-left: 16px;
 }
 
 .footer-form {
