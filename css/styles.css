@@ -581,7 +581,6 @@ address {
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   transform: translate(-50%, -50%);
 }
 
@@ -606,7 +605,7 @@ address {
   padding: 72px 24px 24px 24px;
 }
 
-.backdrop:not(is-open) {
+.backdrop:not(is-open) .modal {
   transform: translate(-50%, -50%) scale(0.5);
 }
 
