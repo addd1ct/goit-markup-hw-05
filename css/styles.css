@@ -581,6 +581,8 @@ address {
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transform: translate(-50%, -50%);
 }
 
 .backdrop.is-open {
@@ -661,8 +663,14 @@ address {
 }
 
 .input {
-  border-color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input:active {
@@ -673,6 +681,19 @@ address {
   border-color: #4d5ae5;
 }
 
+.input-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
+}
+
+.input-icon:focus {
+  fill: #4d5ae5;
+}
+
 .label {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -680,6 +701,12 @@ address {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
+  margin-bottom: 4px;
+}
+
+.name.item {
+  position: relative;
 }
 
 .modal-div {
@@ -688,6 +715,7 @@ address {
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 8px;
 }
 
 .modal-span {
