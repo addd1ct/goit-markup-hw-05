@@ -432,6 +432,7 @@ address {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .portfolio-item:hover .overlay {
@@ -502,7 +503,51 @@ address {
   margin-bottom: 16px;
 }
 
+.footer-sub {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-input {
+  background-color: #2e2f42;
+  border-radius: 4px;
+  border-color: #ffffff;
+  color: #ffffff;
+  height: 40px;
+  width: 264px;
+}
+
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .portfolio-photo {
   position: relative;
   overflow: hidden;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(46, 47, 66, 0.4);
+  display: none;
+  pointer-events: none;
+}
+
+.modal-overlay .modal {
+  background-color: #fcfcfc;
+  border-radius: 4px;
 }
