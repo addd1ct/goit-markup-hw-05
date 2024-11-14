@@ -574,7 +574,6 @@ address {
   justify-content: center;
   align-items: center;
   background-color: rgba(46, 47, 66, 0.4);
-  display: none;
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
