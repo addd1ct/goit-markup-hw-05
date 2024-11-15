@@ -776,3 +776,7 @@ address {
   display: flex;
   gap: 24px;
 }
+
+.input-item {
+  position: relative;
+}
