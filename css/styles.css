@@ -510,6 +510,7 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  align-self: flex-start;
 }
 
 .footer-input {
@@ -777,6 +778,7 @@ address {
 
 .send-icon {
   margin-left: 16px;
+  fill: #ffffff;
 }
 
 .footer-form {
