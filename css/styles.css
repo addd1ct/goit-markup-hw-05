@@ -687,7 +687,7 @@ address {
   fill: #2e2f42;
 }
 
-.input-icon:focus {
+.input:focus .input-icon {
   fill: #4d5ae5;
 }
 
@@ -779,4 +779,8 @@ address {
 
 .input-item {
   position: relative;
+}
+
+.comment-div {
+  margin-bottom: 16px;
 }
