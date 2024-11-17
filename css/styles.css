@@ -432,7 +432,6 @@ address {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-right: 80px;
 }
 
 .portfolio-item:hover .overlay {
@@ -539,7 +538,6 @@ address {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  padding-left: 16px;
 }
 
 .footer-input:hover {
@@ -551,13 +549,8 @@ address {
 }
 
 .footer-email {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
-  margin-right: 24px;
   text-align: left;
+  margin-left: auto;
 }
 
 .portfolio-photo {
@@ -701,6 +694,7 @@ address {
   color: #8e8f99;
   line-height: 1.17;
   margin-bottom: 4px;
+  display: block;
 }
 
 .name.item {
@@ -708,11 +702,6 @@ address {
 }
 
 .modal-div {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
   margin-bottom: 8px;
 }
 
@@ -728,6 +717,7 @@ address {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .send-btn {
@@ -744,9 +734,10 @@ address {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  justify-self: center;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .send-btn:focus {
